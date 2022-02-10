@@ -52,24 +52,23 @@
             <div class="text-input">
                 <form>
                     <label for="plain-text"></label><br>
-                    <input type="text" id="plain-text" name="plain-text"><br>
+                    <input type="text" id="encrypt_input">
                     <br>
-                    <button type="submit" class="btn btn-light">Encrypt</button>
+                    <br>
+                    <button id="encrypt_btn" type="submit" class="btn btn-light">Encrypt</button>
                 </form>
             </div>
         </div>
         <div class="row">
             <div class="text-output">
-                <div class="display-4">
+                <div id="title" class="display-4">
                     Encrypted Message
                </div>
-               <form>
-                <label for="plain-text"></label><br>
-                <input type="text" id="plain-text" name="plain-text"><br>
-                <button type="submit" class="btn btn-light">Decrypt?</button>
+               <form>               
             </form>
             </div>
         </div>
     </div>
+    <script src="./app.js"></script>
 </body>
 </html>
